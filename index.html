@@ -378,9 +378,11 @@
     //}
     </script>
     <script>
-function myFunction() {
-    document.getElementById("my-env").setAttribute("data-state", "open");
-}
+    function myFunction() {
+      myIcon = document.getElementById("my-env");
+      myIcon.setAttribute("data-state", "open");
+      IconicJS().update(myIcon);
+    }
 </script>
 </body>
 </html>
