@@ -154,12 +154,12 @@
         <h6 class="text-muted text-uppercase">Easy development</h6>
         <h2>Natural language queries make mining data easy for anyone.</h2>
         <p class="lead mb-4 text-muted">
-            <img data-state="closed" class="iconic" data-src="assets/img/iconic/envelope.svg">
+            <img id="my-env" data-state="closed" class="iconic" data-src="assets/img/iconic/envelope.svg">
         </p>
-        <button class="btn btn-secondary btn-lg btn-borderless" onclick="$("[data-src='assets/img/iconic/envelope.svg']").setAttribute("data-state", "open");">Read my mail</button>
-        <!--<button class="btn btn-secondary btn-lg btn-borderless">
+        <!--<button class="btn btn-secondary btn-lg btn-borderless" onclick="$("[data-src='assets/img/iconic/envelope.svg']").setAttribute("data-state", "open");">Read my mail</button>-->
+        <button onclick="openMyMail()" class="btn btn-secondary btn-lg btn-borderless">
           Read our docs
-        </button>-->
+        </button>
       </div>
       <div class="col-md-5 ml-auto order-1 order-md-2">
         <pre class="app-code">
@@ -370,6 +370,12 @@
     <script>
       // execute/clear BS loaders for docs
       $(function(){while(window.BS&&window.BS.loader&&window.BS.loader.length){(window.BS.loader.pop())()}})
+    </script>
+    <script>
+    function openMyMail() {
+      $("#my-env").setState("open");
+      //document.getElementById("demo").style.color = "red";
+    }
     </script>
 </body>
 </html>
