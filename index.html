@@ -153,10 +153,13 @@
       <div class="col-md-6 order-2 order-md-1">
         <h6 class="text-muted text-uppercase">Easy development</h6>
         <h2>Natural language queries make mining data easy for anyone.</h2>
-        <p class="lead mb-4 text-muted">Rather than force everyone at your company to learn incredibly difficult terminal commands, we allow anyone to query the data with natural language to return data.</p>
-        <button class="btn btn-secondary btn-lg btn-borderless">
+        <p class="lead mb-4 text-muted">
+            <img data-state="closed" class="iconic" data-src="assets/img/iconic/envelope.svg">
+        </p>
+        <button class="btn btn-secondary btn-lg btn-borderless" onclick="$("[data-src='assets/img/iconic/envelope.svg']").setAttribute("data-state", "open");">Read my mail</button>
+        <!--<button class="btn btn-secondary btn-lg btn-borderless">
           Read our docs
-        </button>
+        </button>-->
       </div>
       <div class="col-md-5 ml-auto order-1 order-md-2">
         <pre class="app-code">
@@ -196,7 +199,6 @@
 
 <div class="block app-ribbon py-5">
   <div class="container text-xs-center">
-    <img class="iconic" data-src="assets/img/iconic/envelope.svg">
     <img src="assets/img/startup-5.svg">
     <img src="assets/img/startup-6.svg">
     <img src="assets/img/startup-7.svg">
@@ -364,6 +366,7 @@
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/toolkit.js"></script>
     <script src="assets/js/application.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>-->
     <script>
       // execute/clear BS loaders for docs
       $(function(){while(window.BS&&window.BS.loader&&window.BS.loader.length){(window.BS.loader.pop())()}})
