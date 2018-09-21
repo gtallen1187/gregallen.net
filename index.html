@@ -157,7 +157,7 @@
             <img id="my-env" data-state="closed" class="iconic" data-src="assets/img/iconic/envelope.svg">
         </p>
         <!--<button class="btn btn-secondary btn-lg btn-borderless" onclick="$("[data-src='assets/img/iconic/envelope.svg']").setAttribute("data-state", "open");">Read my mail</button>-->
-        <button onclick="openMyMail()" class="btn btn-secondary btn-lg btn-borderless">
+        <button onclick="myFunction()" class="btn btn-secondary btn-lg btn-borderless">
           Read our docs
         </button>
       </div>
@@ -372,10 +372,15 @@
       $(function(){while(window.BS&&window.BS.loader&&window.BS.loader.length){(window.BS.loader.pop())()}})
     </script>
     <script>
-    function openMyMail() {
-      $("#my-env").setAttribute("data-state", "open");
+    //function openMyMail() {
+      //$("#my-env").setAttribute("data-state", "open");
       //document.getElementById("demo").style.color = "red";
-    }
+    //}
     </script>
+    <script>
+function myFunction() {
+    document.getElementById("my-env").setAttribute("data-state", "open");
+}
+</script>
 </body>
 </html>
