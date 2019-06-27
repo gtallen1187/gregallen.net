@@ -1,0 +1,146 @@
+/* styles/main.css */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - BASE STYLES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+h1 {
+    margin: 0;
+    font-size: 5em;
+}
+
+h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+h2 i {
+    color: #0A0;
+    color: rgba(0,170,0,0.5);
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - LAYOUT - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.banner-container {
+    margin: 50px auto;
+    padding: 40px 0;
+    background: url('/images/diagonal_stripes_light_grey.png') repeat;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-color: rgba(0,170,0,0.2);
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.content-container {
+    margin: 0 auto 20px;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - BANNER - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.photo {
+    margin: 10px auto;
+    max-width: 450px
+}
+
+.img-thumbnail {
+    border-color: rgba(0,170,0,0.2);
+}
+
+.resume {
+    margin: 20px auto 0;
+    font-size: 8em;
+}
+
+.resume span {
+    display: inline-block;
+}
+
+.resume a {
+    text-decoration: none;
+}
+
+.linkedin a, .linkedin a:link, .linkedin a:visited {
+    color: #1A85BC;
+}
+
+.linkedin a:hover, .linkedin a:focus, .linkedin a:active {
+    border-bottom: 5px solid #333;
+}
+
+.github a, .github a:link, .github a:visited {
+    color: #333;
+}
+
+.github a:hover, .github a:focus, .github a:active {
+    border-bottom: 5px solid #1A85BC;
+}
+
+.phone {
+    margin: 0 auto;
+    font-size: 3em;
+}
+/*
+.phone i {
+    color: #0A0;
+    color: rgba(0,170,0,0.5);
+}
+*/
+.links {
+    margin: 20px auto 0;
+}
+
+.links a {
+    font-size: 3em;
+}
+
+.links a:hover, .links a:focus, .links a:active {
+    color: #00ACEE;
+}
+
+.links a.email:hover i,
+.links a.email:focus i,
+.links a.email:active i {
+    color: #0A0;
+    color: rgba(0,170,0,0.5);
+}
+
+.links a.google-plus:hover i,
+.links a.google-plus:focus i,
+.links a.google-plus:active i {
+    color: red;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - MEDIA QUERIES - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media (max-width: 767px) {
+    .banner-container {
+        margin: 0 auto 50px;
+    }
+    h1 {
+        margin: 0;
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    .phone {
+        margin: 0 auto;
+        font-size: 2.5em;
+    }
+    .links a {
+        font-size: 2em;
+    }
+}
