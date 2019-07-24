@@ -6,10 +6,10 @@
 
         $('.linkedin').find('a').hover(function(e) {
             e.preventDefault();
-            $(this).find('i').toggleClass('fa-linkedin-square').toggleClass('fa-linkedin');
+            $(this).find('i').toggleClass('fa-linkedin').toggleClass('fa-linkedin-in');
         });
 
-        $('.github').find('a').hover(function(e) {
+        $('.email-envelope').find('a').hover(function(e) {
             e.preventDefault();
             $(this).find('i').toggleClass('fa-envelope').toggleClass('fa-envelope-open');
         });
