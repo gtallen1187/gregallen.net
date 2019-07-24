@@ -11,7 +11,7 @@
 
         $('.github').find('a').hover(function(e) {
             e.preventDefault();
-            $(this).find('i').toggleClass('fa-github').toggleClass('fa-github-alt');
+            $(this).find('i').toggleClass('fa-envelope').toggleClass('fa-envelope-open');
         });
 
         $('.tooltip-item').hover(function(e) {
