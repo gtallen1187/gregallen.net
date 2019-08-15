@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/gtallen1187
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gregallen.net
+  * I am gtallen1187 (https://keybase.io/gtallen1187) on keybase.
+  * I have a public key ASDhae94epxBmar2lbDw1Y59PdHgP_blACYGY9ADhDZozwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01018872fcc37b814e42b80e677ee2f32d17fd1ac0e3d7997d0e33bfbab0ed5896900a",
+      "host": "keybase.io",
+      "kid": "0120e169ef787a9c4199aaf695b0f0d58e7d3dd1e03ff6e500260663d003843668cf0a",
+      "uid": "2f7923abc8ff644fd8118d520ccde919",
+      "username": "gtallen1187"
+    },
+    "merkle_root": {
+      "ctime": 1565840668,
+      "hash": "40b0b0b7c718820402b51a8c6dad8198bbcd52655709d5139856819f070ab20b234ad4b71b9107b37df10e81f6f451eb92229d99cbc8c07db91d1453bec60e99",
+      "hash_meta": "9573158ecb662205419cb0dbede750dbbafcf4629f913ac74867188cfa8cf68f",
+      "seqno": 6019601
+    },
+    "service": {
+      "entropy": "H0BgvmdhuhFAtdb8yvxa7Zrb",
+      "hostname": "gregallen.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.3.0"
+  },
+  "ctime": 1565840721,
+  "expire_in": 504576000,
+  "prev": "4be5b06b32cfda918e6776feddfe001d6b931aa18e7d311a425ea153678b56d1",
+  "seqno": 183,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg4WnveHqcQZmq9pWw8NWOfT3R4D/25QAmBmPQA4Q2aM8Kp3BheWxvYWTES5cCzLfEIEvlsGsyz9qRjmd2/t3+AB1rkxqhjn0xGkJeoVNni1bRxCDde1XwPeoXv03B5vu0ikCDRUOPQo8q+FcieYzBYxkRWgIBwqNzaWfEQBHNyJH5ndqO4e0IdgvCTwYdLfXVh9jYIyeagJROCaGwmrjM7JrGD6EH+DGL54YN+9Jj8LKO6cVh9Qhskfb3MwKoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCOJj3PCWBSaRomLMfxJY9jpRJZskGRxLGbsSxruIjE96N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gtallen1187
+
+==================================================================
