@@ -1,0 +1,20 @@
+﻿/* TEAM */
+	Your Boy:Greg Allen
+	Contact: greg [at] gregallen.net
+	Twitter: @gtallen1187
+	GitHub: @gtallen1187
+	From:Pittsburgh, Pennsylvania, United States
+
+/* THANKS */
+
+	Inspiration: Elliot Fleming
+	Twitter: @elliotfleming
+	GitHub: @gtallen1187
+	From: Birmingham, Alabama, United States
+
+
+/* SITE */
+	Source: https://github.com/gtallen1187/gregallen.net
+	Language: English
+	Doctype:HTML5
+	Editor: Atom (Beta), Sublime Text 2
